@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu_navegacion {
+    background-color: black;
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+      padding: 20px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+  
+      &:hover {
+        color: red;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+  
