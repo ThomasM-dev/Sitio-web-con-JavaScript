@@ -1,3 +1,7 @@
+html {
+  font-size: 62.5%;
+}
+
 .menu_navegacion {
   background-color: black;
 }
@@ -7,12 +11,28 @@
   justify-content: end;
 }
 .nav_right a {
-  font-size: 20px;
-  margin: 5px;
+  font-size: 2rem;
+  margin: 0.9rem;
   color: white;
 }
 .nav_right a:hover {
   color: red;
+}
+@media (max-width: 76.8rem) {
+  .nav_right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav_right a {
+    font-size: 1.6rem;
+    margin: 0.3rem;
+  }
+}
+@media (max-width: 48rem) {
+  .nav_right a {
+    font-size: 1.4rem;
+    margin: 0.2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

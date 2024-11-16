@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5%; 
+}
 .menu_navegacion {
   background-color: black;
 }
@@ -5,11 +8,32 @@
 .nav_right {
   display: flex;
   justify-content: end;
+
   a {
-    font-size: 20px;
-    margin: 5px;
+    font-size: 2rem;
+    margin: 0.9rem; 
     color: white;
-  &:hover {
-    color: red;
-  }}
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  @media (max-width: 76.8rem) { 
+    flex-direction: column; 
+    align-items: center; 
+
+    a {
+      font-size: 1.6rem; 
+      margin: 0.3rem; 
+    }
+  }
+
+
+  @media (max-width: 48rem) { 
+    a {
+      font-size: 1.4rem; 
+      margin: 0.2rem; 
+    }
+  }
 }
