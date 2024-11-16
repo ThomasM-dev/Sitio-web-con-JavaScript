@@ -1,25 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .menu_navegacion {
   background-color: black;
 }
-.menu_navegacion ul {
+
+.nav_right {
   display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  padding: 20px;
+  justify-content: end;
 }
-.menu_navegacion a {
+.nav_right a {
+  font-size: 20px;
+  margin: 5px;
   color: white;
-  text-decoration: none;
-  margin: 10px;
 }
-.menu_navegacion a:hover {
+.nav_right a:hover {
   color: red;
-  transition: all 0.3s ease;
 }
 
 /*# sourceMappingURL=styles.css.map */
